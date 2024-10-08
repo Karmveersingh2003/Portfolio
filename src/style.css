@@ -9,8 +9,8 @@ html {
       rgba(5, 8, 40, 0.87), rgba(1, 4, 39, 0.925)
     );
   
-    --imp-text-color: #7500fa;
-    --imp-bold-text-color: #7500fa;
+    --imp-text-color: #0081fa;
+    --imp-bold-text-color: #0081fa;
   }
   
   .yellow {
@@ -60,18 +60,18 @@ html {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #2d005c;
+    background: #9dc7fe;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgba(77, 1, 165, 0.959);
+    background: #9dc7fe;
     border-radius: 12px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(121, 7, 250);
+    background: rgb(0, 85, 255);
     border-radius: 12px;
   }
   
@@ -100,7 +100,7 @@ html {
   
   .navbar-toggler span {
     display: block !important;
-    background-color: #7500fa !important;
+    background-color: #006cfa !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -178,8 +178,10 @@ html {
     }
   }
   .logo {
-    height: 4em !important;
-    width: 3.5em !important;
+    height: 2em !important;
+    width: 3.0em !important;
+    border-radius: 32% !important;
+   
   }
   .navbar-nav .nav-item {
     position: relative;
@@ -200,7 +202,7 @@ html {
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: #6e00fd;
+    background: #809dff;
     bottom: 1px;
     left: 0;
     z-index: -1;
@@ -287,18 +289,18 @@ html {
   }
   
   .main-name {
-    color: #7500fa;
+    color: #0064fb;
   }
   
   .Typewriter__wrapper {
     font-size: 2.2em !important;
-    color: #7500fa!important;
+    color: #0064fb!important;
     /* color: #be6adf !important; */
     font-weight: 600 !important;
   }
   .Typewriter__cursor {
     font-size: 2.4em !important;
-    color: #7500fa !important;
+    color: #0064fb !important;
   }
   
   @media (max-width: 767px) {
@@ -379,7 +381,7 @@ html {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #e9fa00;
+    background: #9dc7fe;
     transition: 0.5s;
     transform: scale(0.9);
     z-index: -1;
@@ -387,13 +389,13 @@ html {
   
   .home-social-icons:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #fdf902;
+    box-shadow: 0 0 15px #9dc7fe;
   }
   
   .home-social-icons:hover {
-    color: #e5ff00;
-    box-shadow: 0 0 5px #fdf901;
-    text-shadow: 0 0 2px #fcf802;
+    color: #9dc7fe;
+    box-shadow: 0 0 5px #9dc7fe;
+    text-shadow: 0 0 2px #9dc7fe;
   }
   
   .social-icons {
@@ -403,7 +405,7 @@ html {
   }
   
   .icon-colour {
-    color: #e6ff01 !important;
+    color: #ffffff !important;
   }
   
   /* --------- */
@@ -599,8 +601,8 @@ html {
 .btn-primary {
   /* color: #fff !important; */
   color: rgb(24, 2, 44) !important;
-  background-color: #7500fa !important;
-  border-color: #7500fa !important;
+  background-color: #9dc7fe !important;
+  border-color: #9dc7fe !important;
   /* background-color: #623686 !important;
   border-color: #623686 !important; */
 }
@@ -786,7 +788,7 @@ html {
     content: '';
     position: absolute;
     width: 2px;
-    background: #EF233C;
+    background: #6db8e6;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -817,8 +819,8 @@ html {
     height: 16px;
     top: 48px;
     right: -8px;
-    background: #ffffff;
-    border: 2px solid #EF233C;
+    background: #70aae8;
+    border: 2px solid #ffffff;
     border-radius: 16px;
     z-index: 1;
 }
@@ -850,10 +852,11 @@ html {
     top: 44px;
     font-size: 16px;
     font-weight: 600;
-    color: #EF233C;
+    color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
+    
 }
 
 .experience .timeline .timeline-item.left .timeline-date {
@@ -868,7 +871,7 @@ html {
 
 .experience .timeline .timeline-text {
     padding: 30px;
-    background: #ffffff;
+    background: #cde3f7;
     position: relative;
     border-right: 5px solid #dddddd;
     box-shadow: 0 0 60px rgba(0, 0, 0, .08);
@@ -961,6 +964,6 @@ padding-top: 30px;
 }
 #homelinkicon a:hover{
   text-decoration: underline;
-  color: #d74545 !important;
+  color: #a3c9ff !important;
 }
   
